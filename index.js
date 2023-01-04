@@ -112,10 +112,10 @@ change = parseFloat(change/finances.length).toFixed(2);     //Calculate average 
                                                             //Round to hundredths place
 
 //Output fomatted data to the console
-console.log("Financial Analysis\n");
-console.log("--------------------------------------\n");
-console.log(`Total Months: ${finances.length}\n`);
-console.log(`Total: $${sum}\n`);
+console.log("Financial Analysis");
+console.log("--------------------------------------");
+console.log(`Total Months: ${finances.length}`);
+console.log(`Total: $${sum}`);
 console.log(`Average Change: $${change}`);
 console.log(`Greatest Increase in Profits: ${finances[idxGreatestIncrease][0]} ($${greatestIncrease})`);
 console.log(`Greatest Decrease in Profits: ${finances[idxGreatestDecrease][0]} ($${greatestDecrease})`)
